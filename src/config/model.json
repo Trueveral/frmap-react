@@ -1,0 +1,16 @@
+{
+  "pek": {
+    "headerprops": {
+      "title": "Domestic Commercial Filght From Beijing Capital Intl(PEK).",
+      "subtitle": "Excluding Beijing Nanyuan Intl(NAY). and Beijing Daxing Intl(PKX).",
+      "description": "Please take note that due to the massive amount of data, the responding time after clicking 'Show all' for the first time may be observably longer. If the animation becomes stuttering, please refresh the page."
+    },
+    "mapprops": {
+      "mapPath": "../../data/map.json",
+      "width": 1000,
+      "height": 800,
+      "central": [116.4074, 39.9042],
+      "projectionMode": "m"
+    }
+  }
+}

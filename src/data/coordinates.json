@@ -1,0 +1,460 @@
+{
+  "data": [
+    {
+      "city": "Xiamen",
+      "coordinates": [118.0964355, 24.48540661]
+    },
+    {
+      "city": "Dalian",
+      "coordinates": [121.618622, 38.91459]
+    },
+    {
+      "city": "Guilin",
+      "coordinates": [110.299121, 25.274215]
+    },
+    {
+      "city": "Harbin",
+      "coordinates": [126.535319, 45.803131]
+    },
+    {
+      "city": "Nanchang",
+      "coordinates": [115.857963, 28.683016]
+    },
+    {
+      "city": "Nanning",
+      "coordinates": [108.36637, 22.817746]
+    },
+    {
+      "city": "Sanya",
+      "coordinates": [109.508268, 18.247872]
+    },
+    {
+      "city": "Erlianhaut",
+      "coordinates": [111.977943, 43.65317]
+    },
+    {
+      "city": "Lijiang",
+      "coordinates": [100.233026, 26.872108]
+    },
+    {
+      "city": "Baotou",
+      "coordinates": [109.840405, 40.658168]
+    },
+    {
+      "city": "Hailaer",
+      "coordinates": [119.736279, 49.212189]
+    },
+    {
+      "city": "Jixi",
+      "coordinates": [130.969333, 45.295075]
+    },
+    {
+      "city": "Huhhot",
+      "coordinates": [111.755508561709, 40.8484229971135]
+    },
+    {
+      "city": "Haikou",
+      "coordinates": [110.198286, 20.044412]
+    },
+    {
+      "city": "Qingdao",
+      "coordinates": [120.39629, 36.30744]
+    },
+    {
+      "city": "Yichang",
+      "coordinates": [111.2925492, 30.69744648]
+    },
+    {
+      "city": "Macau",
+      "coordinates": [113.5556075793, 22.2048369936]
+    },
+    {
+      "city": "Chifeng",
+      "coordinates": [118.886856, 42.257817]
+    },
+    {
+      "city": "Changzhi",
+      "coordinates": [113.113556, 36.191112]
+    },
+    {
+      "city": "Chongqing",
+      "coordinates": [116.413384, 39.910925]
+    },
+    {
+      "city": "Chengdu",
+      "coordinates": [104.06476, 30.5702]
+    },
+    {
+      "city": "Dongying",
+      "coordinates": [118.66471, 37.434564]
+    },
+    {
+      "city": "Fuzhou",
+      "coordinates": [119.29647, 26.07421]
+    },
+    {
+      "city": "Guangzhou",
+      "coordinates": [113.26436, 23.12908]
+    },
+    {
+      "city": "Guiyang",
+      "coordinates": [106.6365768, 26.65332482]
+    },
+    {
+      "city": "Hangzhou",
+      "coordinates": [120.209947, 30.245853]
+    },
+    {
+      "city": "Hefei",
+      "coordinates": [117.227308, 31.82057]
+    },
+    {
+      "city": "Jiamusi",
+      "coordinates": [130.327359092573, 46.8056899908578]
+    },
+    {
+      "city": "Kunming",
+      "coordinates": [102.852448365005, 24.873998150044]
+    },
+    {
+      "city": "Lanzhou",
+      "coordinates": [103.840521196336, 36.0672346935456]
+    },
+    {
+      "city": "Manzhouli",
+      "coordinates": [117.38543585768, 49.6040988548661]
+    },
+    {
+      "city": "Mudanjiang",
+      "coordinates": [129.639539778347, 44.5562457089863]
+    },
+    {
+      "city": "Ningbo",
+      "coordinates": [121.628572494341, 29.8660330458661]
+    },
+    {
+      "city": "Qiqihaer",
+      "coordinates": [123.924570868415, 47.3599771860153]
+    },
+    {
+      "city": "Shanghai",
+      "coordinates": [121.480538860177, 31.235929042252]
+    },
+    {
+      "city": "Shenzhen",
+      "coordinates": [114.064551836588, 22.5484566379842]
+    },
+    {
+      "city": "Taiyuan",
+      "coordinates": [112.556391491672, 37.8769890288478]
+    },
+    {
+      "city": "Urumqi",
+      "coordinates": [87.6244399353605, 43.8307632042905]
+    },
+    {
+      "city": "Wenzhou",
+      "coordinates": [120.706476890356, 28.0010854044722]
+    },
+    {
+      "city": "Wuhai",
+      "coordinates": [106.800391049997, 39.6620063648907]
+    },
+    {
+      "city": "Xian",
+      "coordinates": [108.946465550633, 34.347268816624]
+    },
+    {
+      "city": "Yinchuan",
+      "coordinates": [106.2384935874, 38.4924600555096]
+    },
+    {
+      "city": "Tongren",
+      "coordinates": [109.196438898177, 27.7377864564052]
+    },
+    {
+      "city": "Weifang",
+      "coordinates": [119.168377911428, 36.7126515512675]
+    },
+    {
+      "city": "Hongkong",
+      "coordinates": [114.1720064282, 22.2810079531]
+    },
+    {
+      "city": "Wulanhot",
+      "coordinates": [122.0997644784, 46.0785493221]
+    },
+    {
+      "city": "Yanan",
+      "coordinates": [109.496581916127, 36.5911110352178]
+    },
+    {
+      "city": "Yulin",
+      "coordinates": [109.741616033814, 38.290883835484]
+    },
+    {
+      "city": "Zhongwei",
+      "coordinates": [105.203570900887, 37.5057014187029]
+    },
+    {
+      "city": "Dehong",
+      "coordinates": [98.5913593561141, 24.4380107027581]
+    },
+    {
+      "city": "Tengchong",
+      "coordinates": [98.4975950354885, 25.0266168603455]
+    },
+    {
+      "city": "Mangshi",
+      "coordinates": [98.5945541796593, 24.439426698602]
+    },
+    {
+      "city": "Wuyishan",
+      "coordinates": [118.041577150087, 27.7625539102593]
+    },
+    {
+      "city": "Changsha",
+      "coordinates": [112.945473195353, 28.2348893999436]
+    },
+    {
+      "city": "Zhoushan",
+      "coordinates": [122.21355631852, 29.9909116801603]
+    },
+    {
+      "city": "Quanzhou",
+      "coordinates": [118.6824463, 24.87995233]
+    },
+    {
+      "city": "Changchun",
+      "coordinates": [125.3306021, 43.8219535]
+    },
+    {
+      "city": "Jieyang",
+      "coordinates": [116.3785122, 23.55574049]
+    },
+    {
+      "city": "Shenyang",
+      "coordinates": [123.4710966, 41.68383007]
+    },
+    {
+      "city": "Wuhan",
+      "coordinates": [114.3115816, 30.59846674]
+    },
+    {
+      "city": "Xining",
+      "coordinates": [101.7844502, 36.6233847]
+    },
+    {
+      "city": "Yanji",
+      "coordinates": [129.5205201, 42.91271701]
+    },
+    {
+      "city": "Yiwu",
+      "coordinates": [120.081581, 29.31114988]
+    },
+    {
+      "city": "Zhangjiajie",
+      "coordinates": [110.4855325, 29.12281556]
+    },
+    {
+      "city": "Zhengzhou",
+      "coordinates": [113.6314192, 34.75343885]
+    },
+    {
+      "city": "Zhuhai",
+      "coordinates": [113.5825548, 22.27656465]
+    },
+    {
+      "city": "Anshan",
+      "coordinates": [123.0013725, 41.1150536]
+    },
+    {
+      "city": "Ganzhou",
+      "coordinates": [114.9405034, 25.8351761]
+    },
+    {
+      "city": "Changzhou",
+      "coordinates": [119.9814847, 31.81579565]
+    },
+    {
+      "city": "Jinan",
+      "coordinates": [117.1263994, 36.6565542]
+    },
+    {
+      "city": "Xishuangbanna",
+      "coordinates": [100.8034468, 22.01360125]
+    },
+    {
+      "city": "Luoyang",
+      "coordinates": [112.4594213, 34.62426278]
+    },
+    {
+      "city": "Nanjing",
+      "coordinates": [118.8024217, 32.06465289]
+    },
+    {
+      "city": "Yantai",
+      "coordinates": [121.4544154, 37.47003838]
+    },
+    {
+      "city": "Yibing",
+      "coordinates": [104.6494037, 28.75800703]
+    },
+    {
+      "city": "Lianyungang",
+      "coordinates": [119.2286213, 34.60224953]
+    },
+    {
+      "city": "Huaian",
+      "coordinates": [119.0214837, 33.6162953]
+    },
+    {
+      "city": "Nanchong",
+      "coordinates": [106.1175026, 30.84378251]
+    },
+    {
+      "city": "Luzhou",
+      "coordinates": [105.4485241, 28.8776683]
+    },
+    {
+      "city": "Jinjiang",
+      "coordinates": [118.5584305, 24.78782458]
+    },
+    {
+      "city": "Hailaler",
+      "coordinates": [119.7424654, 49.2182158]
+    },
+    {
+      "city": "Yining",
+      "coordinates": [81.28424241, 43.91529944]
+    },
+    {
+      "city": "Beihai",
+      "coordinates": [109.1265332, 21.4868365]
+    },
+    {
+      "city": "Zunyi",
+      "coordinates": [106.9334277, 27.73170088]
+    },
+    {
+      "city": "Kumming",
+      "coordinates": [102.8524484, 24.87399815]
+    },
+    {
+      "city": "Daqing",
+      "coordinates": [125.1086576, 46.59363318]
+    },
+    {
+      "city": "Wuxi",
+      "coordinates": [120.3185833, 31.49880973]
+    },
+    {
+      "city": "Xiangyang",
+      "coordinates": [112.1285372, 32.0147968]
+    },
+    {
+      "city": "Nantong",
+      "coordinates": [120.9015917, 31.98654943]
+    },
+    {
+      "city": "Yichun",
+      "coordinates": [114.4235637, 27.82085642]
+    },
+    {
+      "city": "Lhasa",
+      "coordinates": [91.12082392, 29.65004027]
+    },
+    {
+      "city": "Changde",
+      "coordinates": [111.7054522, 29.03775]
+    },
+    {
+      "city": "Dazhouheshi",
+      "coordinates": [107.440808, 31.14814585]
+    },
+    {
+      "city": "Datong",
+      "coordinates": [113.3064363, 40.08246872]
+    },
+    {
+      "city": "Liuzhou",
+      "coordinates": [109.4344219, 24.33196139]
+    },
+    {
+      "city": "Jinggangshan",
+      "coordinates": [114.2955559, 26.75370974]
+    },
+    {
+      "city": "Mianyang",
+      "coordinates": [104.6855619, 31.47366305]
+    },
+    {
+      "city": "Nanking",
+      "coordinates": [118.8024217, 32.06465289]
+    },
+    {
+      "city": "Erdos",
+      "coordinates": [109.7874432, 39.61448231]
+    },
+    {
+      "city": "Tongliao",
+      "coordinates": [122.2505218, 43.65798008]
+    },
+    {
+      "city": "Weihai",
+      "coordinates": [122.127541, 37.51643055]
+    },
+    {
+      "city": "Xilinhot",
+      "coordinates": [116.0936139, 43.9383338]
+    },
+    {
+      "city": "Xuzhou",
+      "coordinates": [117.2905754, 34.21266655]
+    },
+    {
+      "city": "Yancheng",
+      "coordinates": [120.1675443, 33.35510092]
+    },
+    {
+      "city": "Yuncheng",
+      "coordinates": [111.0133895, 35.03270691]
+    },
+    {
+      "city": "Taipei",
+      "coordinates": [121.5737379, 25.04079745]
+    },
+    {
+      "city": "Jiuzhaigou",
+      "coordinates": [104.2495467, 33.25759151]
+    },
+    {
+      "city": "Yushu",
+      "coordinates": [97.01318076, 33.01097959]
+    },
+    {
+      "city": "Guangyuan",
+      "coordinates": [105.8504232, 32.44161631]
+    },
+    {
+      "city": "Rizhao",
+      "coordinates": [119.5334154, 35.422839]
+    },
+    {
+      "city": "Nanyang",
+      "coordinates": [112.5345013, 32.9965622]
+    },
+    {
+      "city": "Xichang",
+      "coordinates": [102.2714838, 27.9005809]
+    },
+    {
+      "city": "Wanzhou",
+      "coordinates": [108.4155584, 30.81362164]
+    },
+    {
+      "city": "Taiwan",
+      "coordinates": [121.5304888883, 25.0337797504]
+    }
+  ]
+}
