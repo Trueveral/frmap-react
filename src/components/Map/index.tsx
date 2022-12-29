@@ -1,8 +1,11 @@
 import * as d3 from "d3";
-import { IAirlineInfo, ICityInfo, IMapObject } from "../../lib/interfaces";
 import React from "react";
-import { useState, useEffect, useMemo, useRef } from "react";
-import { GeoGeometryObjects, GeoPermissibleObjects, GeoProjection } from "d3";
+import { useState, useEffect, useRef } from "react";
+import {
+  ExtendedFeatureCollection,
+  GeoPermissibleObjects,
+  GeoProjection,
+} from "d3";
 import "./index.less";
 
 const Map: React.FC<{
@@ -12,16 +15,15 @@ const Map: React.FC<{
   central: number[];
   projectionMode: string;
 }> = ({
-  mapPath = "../../data/map.json",
+  mapPath,
   width = 1000,
   height = 800,
   central = [0, 0],
   projectionMode = "m",
 }) => {
-  const [map, setMap] = useState<any>();
-  const [projection, setProjection] = useState<GeoProjection>();
-
+  const [map, setMap] = useState<ExtendedFeatureCollection>();
   const svgRef = useRef<SVGSVGElement>(null);
+  let projection: any | GeoProjection = null;
 
   const svg = d3
     .select(svgRef.current)
@@ -56,45 +58,25 @@ const Map: React.FC<{
     .attr("cy", "6")
     .attr("r", "5");
 
-  // set the map data
+  // set the map
   useEffect(() => {
-    d3.json(mapPath).then(data => {
+    d3.json(mapPath).then((data: any) => {
       setMap(data);
     });
   }, [mapPath]);
 
   // set the projection
   useEffect(() => {
-    // if projectionMode is 'm', use mercator projection
-    if (projectionMode === "m") {
-      // check if the map is loaded
-      if (map) {
-        setProjection(
-          d3.geoMercator().fitExtent(
-            [
-              [0, 0],
-              [width, height],
-            ],
-            map
-          )
-        );
-      }
-    } else {
-      // if projectionMode is 'p', use projection
-      // check if the map is loaded
-      if (map) {
-        setProjection(
-          d3.geoOrthographic().fitExtent(
-            [
-              [0, 0],
-              [width, height],
-            ],
-            map
-          )
-        );
-      }
+    if (map) {
+      projection = d3.geoMercator().fitExtent(
+        [
+          [0, 0],
+          [width, height],
+        ],
+        map
+      );
     }
-  }, [map, central, width, height]);
+  }, [map]);
 
   // draw the mapGraph
   useEffect(() => {
@@ -103,7 +85,7 @@ const Map: React.FC<{
         .geoPath()
         .projection(projection);
       mapGraph
-        ?.selectAll("path")
+        .selectAll("path")
         .data(map.features)
         .enter()
         .append("path")
@@ -114,7 +96,7 @@ const Map: React.FC<{
 
   return (
     <div className="main">
-      <svg ref={svgRef}></svg>
+      <svg className="svg" ref={svgRef}></svg>
     </div>
   );
 };

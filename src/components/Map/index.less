@@ -1,12 +1,31 @@
-.main svg {
+@import "../../styles/colours.less";
+.main .svg {
   background-color: rgba(250, 250, 250, 1);
   border-radius: 10px;
-  border-color: #00b2ff;
-  transition: all 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
+  border-color: @primary-color;
+  transition: all 0.31s cubic-bezier(0.52, 0.16, 0.24, 1);
   border-width: 1px;
   border-style: solid;
+
+  .map path {
+    stroke: @primary-color;
+    stroke-width: 0.5;
+    fill: #f7f7f7;
+    transition: all 0.31s cubic-bezier(0.52, 0.16, 0.24, 1);
+  }
+  #pointers .innerPointer {
+    fill: @primary-color;
+  }
+
+  #pointers .outerPointer {
+    fill: none;
+    stroke: @primary-color;
+    stroke-width: 1;
+  }
 }
-.main svg:hover {
-  border-color: rgba(102, 217, 255, 1);
-  background-color: rgb(255, 255, 255);
+
+.main .svg .map path:hover {
+  fill: @lightgray;
+  stroke: @primary-lighter;
+  stroke-width: 2;
 }

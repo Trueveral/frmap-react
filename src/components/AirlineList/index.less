@@ -1,0 +1,33 @@
+@import "../../styles/colours.less";
+
+.airline-list {
+  //remove default list styling
+  list-style: none;
+  /*make it a grid that takes at most 1000px in width*/
+  max-width: 1000px;
+  display: grid;
+  /*make the grid 3 columns wide*/
+  grid-template-columns: repeat(5, 1fr);
+  /*make the grid 3 rows high*/
+  grid-template-rows: repeat(3, 1fr);
+  /*make the grid 10px wide*/
+  grid-gap: 5px;
+  /*make the grid 10px high*/
+  grid-auto-flow: row;
+
+  li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.44s cubic-bezier(0.52, 0.16, 0.24, 1);
+  }
+  li:hover {
+    color: @primary-color;
+  }
+
+  li:nth-child(1) {
+    font-weight: bold;
+  }
+}
